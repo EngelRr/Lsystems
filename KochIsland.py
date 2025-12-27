@@ -109,10 +109,9 @@ ruleF_word = "F+F-F-FF+F+F-F"
 ruleF = list(ruleF_word)
 
 t1.hideturtle()
-depth = 6
+depth = 3 
 
 mid = center(KochIsland(initial, depth))
-print((mid[2]-mid[4]))
 stepsize = (s.window_height()-20)/(mid[2]-mid[4])
 t1.goto(-mid[0]*stepsize, -mid[1]*stepsize)
 
