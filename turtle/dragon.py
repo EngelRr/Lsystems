@@ -83,7 +83,7 @@ initial_word = "Fl"
 initial = list(initial_word)
 
 #depth die gebruikt word
-depth = 12
+depth = 9
 
 
 #print(dragon(initial_word, depth))
